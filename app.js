@@ -4,7 +4,7 @@ import { Worker, isMainThread, parentPort } from 'worker_threads'
 import store from './store.js'
 
 // 读取文件路径
-const filePath = 'E:/shunfeng/script.sql'
+const filePath = 'E:/a.txt'
 // 是否暂停
 const parseWork = new Worker('./ps.js')
 store.setValue('isPsuspend', false)
